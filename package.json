@@ -1,0 +1,12 @@
+{
+  "name": "youtu-edu",
+  "version": "1.0.0",
+  "description": "优途研学社 - 官网 + 后台管理系统",
+  "scripts": {
+    "start": "cd backend && node app.js",
+    "build": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
