@@ -1,0 +1,11 @@
+# 优途研学社 - 一键部署
+services:
+  - type: web
+    name: youtu-edu
+    env: node
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && node app.js
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 20
